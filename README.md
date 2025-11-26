@@ -1,16 +1,31 @@
-# 🍕 Sistema de Pizzaria Completo
+# Sistema de Pizzaria Completo
 
-Este projeto é um sistema completo para gerenciamento de pedidos de pizzaria, utilizando **Node.js**, **Express**, **PostgreSQL** e **Docker**, além de um front-end simples em HTML/CSS/JS.
+Sistema full-stack para gerenciamento de pedidos de pizzaria, desenvolvido com **Node.js** + **TypeScript**, **Express**, **PostgreSQL**, **Docker**, além de um front-end simples em **HTML**, **CSS** e **JavaScript**.
+Inclui cadastro de clientes e produtos, carrinho, emissão de pedidos, comprovante, histórico, e relatórios completos.
 
 ---
 
-## 🛠 Tecnologias utilizadas
+# Autores
+Nome	RA
+Breno Miguel de Souza Afonso	2500998
+Nathalia Batista Munhoz	2501617
+Vanessa da Silva Santos	2520743
+Winley Jaeanty	2525564
 
-* **Node.js** (com TypeScript)
-* **Express** (API REST)
-* **PostgreSQL**
-* **Docker & Docker Compose**
-* **HTML, CSS e JavaScript**
+## Tecnologias utilizadas
+
+### Back-end
+
+**Node.js** (com TypeScript)
+**Express** (API REST)
+**PostgreSQL**
+**Docker & Docker Compose**
+
+### Front-end
+
+**HTML**
+**CSS**
+**JavaScript**
 
 ---
 
@@ -119,6 +134,41 @@ Ou:
 
 ---
 
+## 🔹Funcionalidades
+
+👥 Clientes
+
+* Cadastrar clientes
+* Editar e excluir
+* Buscar cliente
+* Listar todos
+
+🍕 Produtos
+
+* Cadastrar produtos
+* Editar e excluir
+* Listar todos
+* Categorias (Pizzas, Bebidas, Outros)
+
+🛒 Carrinho & Pedidos
+
+* Adicionar itens
+* Editar quantidades
+* Remover itens
+* Finalizar pedido
+* Formas de pagamento
+* Troco
+* Emissão de comprovante
+
+📁 Relatórios
+
+* Vendas por período
+* Produtos mais vendidos
+* Clientes que mais compraram
+* Histórico completo de pedidos
+
+---
+
 ## 🔹 Dicas úteis
 
 ### Reiniciar banco do zero:
@@ -154,8 +204,10 @@ sistema-pizzaria-main/
 │  ├─ pedidos.html
 │  ├─ relatorios.html
 │  └─ styles.css
+│
 ├─ ts/
 │  └─ db.ts
+│
 ├─ server.ts
 ├─ docker-compose.yml
 ├─ dockerfile
