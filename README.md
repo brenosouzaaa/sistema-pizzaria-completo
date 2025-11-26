@@ -6,26 +6,26 @@ Inclui cadastro de clientes e produtos, carrinho, emissão de pedidos, comprovan
 ---
 
 # Autores
-Nome	RA
-Breno Miguel de Souza Afonso	2500998
-Nathalia Batista Munhoz	2501617
-Vanessa da Silva Santos	2520743
-Winley Jaeanty	2525564
+
+* Breno Miguel de Souza Afonso	2500998
+* Nathalia Batista Munhoz	2501617
+* Vanessa da Silva Santos	2520743
+* Winley Jaeanty	2525564
 
 ## Tecnologias utilizadas
 
 ### Back-end
 
-**Node.js** (com TypeScript)
-**Express** (API REST)
-**PostgreSQL**
-**Docker & Docker Compose**
+* **Node.js** (com TypeScript)
+* **Express** (API REST)
+* **PostgreSQL**
+* **Docker & Docker Compose**
 
 ### Front-end
 
-**HTML**
-**CSS**
-**JavaScript**
+* **HTML**
+* **CSS**
+* **JavaScript**
 
 ---
 
