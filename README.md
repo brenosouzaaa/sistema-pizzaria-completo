@@ -1,4 +1,4 @@
-# Sistema de Pizzaria Completo
+# Pizzaria Delivery - Sistema de Controle Completo
 
 Sistema full-stack para gerenciamento de pedidos de pizzaria, desenvolvido com **Node.js** + **TypeScript**, **Express**, **PostgreSQL**, **Docker**, além de um front-end simples em **HTML**, **CSS** e **JavaScript**.
 Inclui cadastro de clientes e produtos, carrinho, emissão de pedidos, comprovante, histórico, e relatórios completos.
