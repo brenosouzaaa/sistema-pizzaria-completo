@@ -29,6 +29,11 @@ Inclui cadastro de clientes e produtos, carrinho, emissão de pedidos, comprovan
 
 ---
 
+## Imagens do Sistema
+
+![Tela de clientes](./imagens/Captura de tela 2025-11-27 005829.png)
+
+
 ## 🔹 Pré-requisitos
 
 Instale antes de rodar o projeto:
@@ -211,6 +216,9 @@ sistema-pizzaria-main/
 ├─ server.ts
 ├─ docker-compose.yml
 ├─ dockerfile
+
+
+
 ├─ init_db.sql
 ├─ package.json
 ├─ tsconfig.json
