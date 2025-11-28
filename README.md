@@ -88,6 +88,11 @@ CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS   
                                      NAMES
 77c4bdb712ae   postgres:15   "docker-entrypoint.s…"   34 seconds ago   Up 17 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres_pizzaria
 ```
+Iniciar o banco de dados com tabelas e produtos padrão:
+
+```bash
+docker exec -i postgres_pizzaria psql -U postgres -d pizzaria < init_db.sql
+```
 
 ---
 
