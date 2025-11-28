@@ -1,0 +1,10 @@
+RELATÓRIO DO PEDIDO
+=====================
+ID: PED-miiapxu9
+Cliente: Nathalia
+Total: R$ 12.00
+Forma de pagamento: Cartão
+Data: 2025-11-28T03:21:29.745Z
+
+ITENS:
+- Coca-Cola 2L | Qtd: 1 | Preço: R$ 12.00

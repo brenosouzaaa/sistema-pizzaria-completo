@@ -1,0 +1,10 @@
+RELATÓRIO DO PEDIDO
+=====================
+ID: PED-miiai2f5
+Cliente: Não informado
+Total: R$ 18.00
+Forma de pagamento: Pix
+Data: 2025-11-28T03:15:22.433Z
+
+ITENS:
+- Batata Frita Grande | Qtd: 1 | Preço: R$ 18.00

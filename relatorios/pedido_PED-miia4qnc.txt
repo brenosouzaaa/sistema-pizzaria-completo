@@ -1,0 +1,11 @@
+RELATÓRIO DO PEDIDO
+=====================
+ID: PED-miia4qnc
+Cliente: Nathalia
+Total: R$ 46.90
+Forma de pagamento: Pix
+Data: 2025-11-28T03:05:00.648Z
+
+ITENS:
+- Água Mineral 500ml | Qtd: 1 | Preço: R$ 4.00
+- Pizza Calabresa Inteira | Qtd: 1 | Preço: R$ 42.90

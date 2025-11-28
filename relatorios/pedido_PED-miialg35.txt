@@ -1,0 +1,10 @@
+RELATÓRIO DO PEDIDO
+=====================
+ID: PED-miialg35
+Cliente: Não informado
+Total: R$ 4.00
+Forma de pagamento: Pix
+Data: 2025-11-28T03:18:00.113Z
+
+ITENS:
+- Água Mineral 500ml | Qtd: 1 | Preço: R$ 4.00
