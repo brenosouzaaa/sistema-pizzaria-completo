@@ -45,7 +45,11 @@ Instale antes de rodar o projeto:
 ### **1. Entrar na pasta do projeto**
 
 ```bash
-cd sistema-pizzaria-main
+git clone https://github.com/brenosouzaaa/sistema-pizzaria-completo.git
+
+cd sistema-pizzaria-completo
+
+code .
 ```
 
 ### **2. Criar o arquivo `.env`**
@@ -53,12 +57,12 @@ cd sistema-pizzaria-main
 Crie um arquivo na raiz com:
 
 ```
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=pizzaria
-POSTGRES_PORT=5432
+PGHOST=localhost
+PGUSER=postgres
+PGPASSWORD=senha
+PGDATABASE=pizzaria
+PGPORT=5432
 
-PORT=3000
 ```
 
 O conteúdo deve corresponder ao `docker-compose.yml`.
@@ -77,10 +81,12 @@ Verificar se está rodando:
 docker ps
 ```
 
-Parar:
+Como tem que aparecer:
 
 ```bash
-docker-compose down
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS    
+                                     NAMES
+77c4bdb712ae   postgres:15   "docker-entrypoint.s…"   34 seconds ago   Up 17 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres_pizzaria
 ```
 
 ---
